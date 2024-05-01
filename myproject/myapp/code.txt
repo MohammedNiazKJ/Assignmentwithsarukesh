@@ -1,0 +1,23 @@
+http://127.0.0.1:8000/tasks/ use this to add task  |GET METHOD|
+
+JSON FORMAT:
+{"task_name": "documentation", "title": "cycling", "due_date": "2024-05-07", "description": " null  ", "status": "incomplete", "priority": "high"}
+
+
+http://127.0.0.1:8000/tasks/?name=documentation  use this to search tasks with name |GET METHOD|
+
+
+http://127.0.0.1:8000/tasks/ use this url and use |DELETE METHOD| to delete task
+ 
+JSON FORMAT:
+{"task_name": "documentation"}
+
+http://127.0.0.1:8000/tasks/ use this url in |PUT METHOD| to update task 
+
+JSON FORMAT:
+{"task_name": "walking", "description": " rtfu5jgy  ", "status": "incomplete", "priority": "high", "due_date": "2024-05-08"}
+except name you can update any thing 
+
+
+For running encryption file first go to myapp directory |cd myapp| then enter |encryption.py| to run the script 
+enter data which you want to encrypt in example.txt
